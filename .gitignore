@@ -1,0 +1,55 @@
+# Python/Django
+venv/
+.env
+*.pyc
+__pycache__/
+*.sqlite3
+*.log
+/media/
+/staticfiles/
+db.sqlite3
+
+# Node.js/React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+/build/
+/.env.local
+.env.development
+.env.production
+
+# MongoDB/Docker
+/data/
+/db/
+*.pid
+*.lock
+*.sock
+*.swp
+docker-compose.override.yml
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Spyder/Python
+.spyproject/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+ENV/
